@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="El espacio personal de Alex: diseño, ideas y proyectos hechos con intención."
+    >
+    <meta name="theme-color" content="#faf6f5">
+    <title>Alex — Versión roja</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Alex, ir al inicio">a<span>.</span></a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="menu-toggle-label">Menú</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Navegación principal">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#proyectos">Proyectos</a>
+        <a class="nav-contact" href="#contacto">Hablemos <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section-wrap" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> Disponible para nuevos proyectos</p>
+          <h1 id="hero-title">Hello, esta es  <br>una version  <br><em>V2  conflictiva...</em></h1>
+          <p class="hero-intro">
+            Creo experiencias digitales claras, humanas y cuidadas hasta el último detalle.
+          </p>
+          <a class="text-link" href="#proyectos">Descubre lo que hago <span aria-hidden="true">↓</span></a>
+        </div>
+
+        <div class="hero-art" role="img" aria-label="Ilustración en tonos rojos cálidos">
+          <span class="art-note">ideas<br>en movimiento</span>
+          <span class="art-spark" aria-hidden="true">✳</span>
+          <svg class="portrait" viewBox="0 0 420 500" aria-hidden="true">
+            <path class="portrait-shadow" d="M70 500c8-102 62-154 140-154s132 52 140 154H70Z"/>
+            <path class="portrait-shirt" d="M119 500c6-85 33-132 91-132s85 47 91 132H119Z"/>
+            <path class="portrait-neck" d="M178 330h64v74h-64z"/>
+            <path class="portrait-hair" d="M117 194c0-92 36-140 96-140s96 48 96 140v75c0 90-47 131-96 131s-96-41-96-131v-75Z"/>
+            <path class="portrait-face" d="M137 185c0-62 29-98 76-98s76 36 76 98v72c0 75-35 112-76 112s-76-37-76-112v-72Z"/>
+            <path class="portrait-hairline" d="M125 202c-6-93 26-154 92-154 59 0 94 45 90 128-19-4-39-15-56-34-25 30-70 47-126 48Z"/>
+            <!-- <path class="portrait-ear" d="M138 219c-19-12-31-1-25 22 5 19 15 29 29 28m143-50c19-12 31-1 25 22-5 19-15 29-29 28"/> -->
+            <path class="portrait-eye" d="M166 229h17m55 0h17"/>
+            <path class="portrait-smile" d="M188 285c15 13 29 13 44 0"/>
+            <path class="portrait-jumper" d="M121 500c7-54 31-95 75-111l20 24 20-24c44 16 68 57 75 111H121Z"/>
+            <path class="portrait-detail" d="m196 393 20 20 20-20m-20 20v87"/>
+          </svg>
+          <span class="art-caption">un poco de calma<br>en un mundo rápido</span>
+        </div>
+
+        <a class="scroll-cue" href="#sobre-mi" aria-label="Desplazarse a la sección sobre mí">
+          <span aria-hidden="true">↓</span>
+        </a>
+      </section>
+
+      <section class="about section-wrap" id="sobre-mi" aria-labelledby="about-title">
+        <div class="section-heading">
+          <p class="eyebrow">01 / Un poco sobre mí</p>
+          <h2 id="about-title">La curiosidad es<br>mi punto de partida.</h2>
+        </div>
+        <div class="about-copy">
+          <p>
+            Me gusta convertir ideas complejas en cosas sencillas de entender y agradables de usar.
+            Combino diseño, estrategia y una buena dosis de curiosidad para crear productos digitales
+            que conectan con las personas.
+          </p>
+          <p>
+            Cuando no estoy diseñando, seguramente estoy buscando una cafetería nueva, haciendo fotos
+            o guardando ideas para después.
+          </p>
+          <a class="text-link" href="#contacto">Un poco más de conversación <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="work section-wrap" id="proyectos" aria-labelledby="work-title">
+        <div class="work-heading">
+          <div>
+            <p class="eyebrow">02 / Selección personal</p>
+            <h2 id="work-title">Cosas que he<br><em>hecho con cariño.</em></h2>
+          </div>
+          <a class="text-link desktop-link" href="#contacto">¿Tienes una idea? <span aria-hidden="true">↗</span></a>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card project-card-large">
+            <a class="project-link" href="#contacto" aria-label="Conoce más sobre Casa Nómada">
+              <div class="project-visual visual-nomada">
+                <span class="visual-index">01</span>
+                <span class="nomada-sun" aria-hidden="true"></span>
+                <span class="nomada-hill hill-back" aria-hidden="true"></span>
+                <span class="nomada-hill hill-front" aria-hidden="true"></span>
+                <span class="visual-title">casa<br>nómada</span>
+                <span class="project-arrow" aria-hidden="true">↗</span>
+              </div>
+              <div class="project-meta">
+                <div><h3>Casa Nómada</h3><p>Una pausa para volver a ti.</p></div>
+                <span>Identidad · Web</span>
+              </div>
+            </a>
+          </article>
+
+          <article class="project-card">
+            <a class="project-link" href="#contacto" aria-label="Conoce más sobre Buen Día">
+              <div class="project-visual visual-buendia">
+                <span class="visual-index">02</span>
+                <span class="coffee-cup" aria-hidden="true"><span></span></span>
+                <span class="buendia-copy">buen<br><em>día</em></span>
+                <span class="project-arrow" aria-hidden="true">↗</span>
+              </div>
+              <div class="project-meta">
+                <div><h3>Buen Día</h3><p>Pequeños rituales, grandes días.</p></div>
+                <span>Dirección de arte</span>
+              </div>
+            </a>
+          </article>
+
+          <article class="project-card">
+            <a class="project-link" href="#contacto" aria-label="Conoce más sobre Cerca">
+              <div class="project-visual visual-cerca">
+                <span class="visual-index">03</span>
+                <span class="cerca-orbit orbit-one" aria-hidden="true"></span>
+                <span class="cerca-orbit orbit-two" aria-hidden="true"></span>
+                <span class="cerca-core" aria-hidden="true">c</span>
+                <span class="cerca-copy">más cerca,<br>más humanos.</span>
+                <span class="project-arrow" aria-hidden="true">↗</span>
+              </div>
+              <div class="project-meta">
+                <div><h3>Cerca</h3><p>Una comunidad para compartir.</p></div>
+                <span>Producto digital</span>
+              </div>
+            </a>
+          </article>
+        </div>
+        <p class="portfolio-note">Proyectos de muestra · Personaliza esta sección con tu trabajo.</p>
+      </section>
+
+      <section class="contact section-wrap" id="contacto" aria-labelledby="contact-title">
+        <p class="eyebrow">03 / El siguiente paso</p>
+        <div class="contact-content">
+          <h2 id="contact-title">¿Y si hacemos<br>algo <em>bonito?</em></h2>
+          <div class="contact-side">
+            <p>Siempre hay espacio para una buena idea y una conversación sin prisa.</p>
+            <a class="contact-button" href="mailto:hola@tucorreo.com">
+              Escríbeme un correo <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#inicio" aria-label="Alex, volver al inicio">a<span>.</span></a>
+      <p>Hecho con calma y un buen café.</p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram <span aria-hidden="true">↗</span></a>
+      </div>
+      <p class="copyright">© <span id="current-year">2026</span> Alex</p>
+    </footer>
+  </body>
+</html>
